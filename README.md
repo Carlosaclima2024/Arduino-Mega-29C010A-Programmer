@@ -43,7 +43,7 @@
 ## Como Usar
 
 1. Monte o circuito conforme a pinagem acima.
-2. Insira um cartão SD formatado em **FAT32**.
+2. Insira um cartão SD formatado em **FAT16**.
 3. Para gravar: coloque o arquivo `Flash.bin` na raiz do cartão SD.
 4. Abra o **Serial Monitor** em **115200 baud**.
 5. Escolha a opção desejada no menu:
