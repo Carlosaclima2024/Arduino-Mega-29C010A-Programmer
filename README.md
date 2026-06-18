@@ -17,26 +17,42 @@
 
 ---
 
-## Pinagem Completa
+### Tabela de Conexões - AT29C010A ↔ Arduino Mega 2560
 
-<details>
-<summary>Clique para ver a tabela de conexões</summary>
-
-| Pino AT29C010A | Nome     | Arduino Mega | Função          |
-|----------------|----------|--------------|-----------------|
-| 22             | CE#      | 4            | Chip Enable     |
-| 24             | OE#      | 3            | Output Enable   |
-| 31             | WE#      | 2            | Write Enable    |
-| 2              | A16      | 38           | Endereço        |
-| 3              | A15      | 37           | Endereço        |
-| 4              | A12      | 34           | Endereço        |
-| 5              | A7       | 29           | Endereço        |
-| ... (ver código) | ...    | ...          | ...             |
-
-**Barramento de Dados (I/O0 a I/O7):** pinos 42 a 49  
-**Barramento de Endereço (A0 a A16):** conforme definido no código
-
-</details>
+| Pino AT29C010A | Nome   | Conexão Arduino Mega | Observação              |
+|----------------|--------|----------------------|-------------------------|
+| 1              | NC     | Não ligar            | Não conectar            |
+| 2              | A16    | 38                   | Endereço                |
+| 3              | A15    | 37                   | Endereço                |
+| 4              | A12    | 34                   | Endereço                |
+| 5              | A7     | 29                   | Endereço                |
+| 6              | A6     | 28                   | Endereço                |
+| 7              | A5     | 27                   | Endereço                |
+| 8              | A4     | 26                   | Endereço                |
+| 9              | A3     | 25                   | Endereço                |
+| 10             | A2     | 24                   | Endereço                |
+| 11             | A1     | 23                   | Endereço                |
+| 12             | A0     | 22                   | Endereço                |
+| 13             | I/O0   | 42                   | Dados                   |
+| 14             | I/O1   | 43                   | Dados                   |
+| 15             | I/O2   | 44                   | Dados                   |
+| 16             | GND    | GND                  | Terra                   |
+| 17             | I/O3   | 45                   | Dados                   |
+| 18             | I/O4   | 46                   | Dados                   |
+| 19             | I/O5   | 47                   | Dados                   |
+| 20             | I/O6   | 48                   | Dados                   |
+| 21             | I/O7   | 49                   | Dados                   |
+| 22             | CE#    | 4                    | Chip Enable             |
+| 23             | A10    | 32                   | Endereço                |
+| 24             | OE#    | 3                    | Output Enable           |
+| 25             | A11    | 33                   | Endereço                |
+| 26             | A9     | 31                   | Endereço                |
+| 27             | A8     | 30                   | Endereço                |
+| 28             | A13    | 35                   | Endereço                |
+| 29             | A14    | 36                   | Endereço                |
+| 30             | NC     | Não ligar            | Não conectar            |
+| 31             | WE#    | 2                    | Write Enable            |
+| 32             | VCC    | 5V                   | Alimentação (+5V)       |
 
 ---
 
